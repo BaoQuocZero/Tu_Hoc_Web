@@ -1,0 +1,93 @@
+.containercv{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-cv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #a19585;
+}
+
+.container-nen{
+    width: 20%;
+    height: 100%;
+}
+
+.nen-trang{
+    width: 80%;
+    height: 100%;
+}
+
+.nen{
+    width: 100%;
+    height: 40%;
+    background-color: #deb887;
+}
+
+.nen-nhat{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(161, 149, 133);
+}
+
+.containercv{
+    position: relative;
+}
+
+.cv{
+    top: 30px;
+    width: 40%;
+    height: 95%;
+    background-color: white;
+    position: absolute;
+     display: flex;  /*CĂNG GIỮA */
+}
+
+.cv-boder{
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(165, 153, 153);
+}
+
+.hinhtron{
+    border-radius: 40%;
+
+    margin-bottom: 25px;
+    
+    width: 95px;
+    height: 95px;
+}
+
+.contact{
+    margin-right: 25px;
+}
+
+.canhtrai{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.lephai{
+    margin-right: 10px;
+}
+
+.button {
+    margin-bottom: 20px;
+    background-color: rgb(102, 144, 233);
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+  }

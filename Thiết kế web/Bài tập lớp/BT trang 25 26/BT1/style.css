@@ -1,0 +1,20 @@
+body{
+    background-image: image(123.jpg);
+
+}
+/* .thangnay{
+    display: flex;
+    text-align: center;
+} */
+.a{
+    width: 20%;
+    position: relative;
+    bottom: 55px;
+    left: 87px;
+}
+.b{
+    width: 20%;
+    position: relative;
+    bottom: 73px;
+  left: 840px;
+}

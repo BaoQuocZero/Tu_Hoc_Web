@@ -1,0 +1,392 @@
+.wrap {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+}
+
+.menuT {
+  width: 20%;
+  height: auto;
+  padding: 3px 10px 5px 10px;
+  box-sizing: border-box;
+}
+
+.menuTcon {
+  width: 17%;
+  height: 55vh;
+  padding: 3px 10px 5px 10px;
+  position: fixed;
+  border: 1px solid black;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menuBody {
+  width: 80%;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+
+}
+
+.tieude {
+  width: 100%;
+}
+
+.Moddau {
+  width: 70%;
+  padding: 5px 20px 5px 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.bang {
+  width: 30%;
+  height: auto;
+  background-color: lightgray;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  float: right;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.thongtindemuc {
+  display: flex;
+}
+
+.Demuc {
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+}
+
+.thongtin {
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+}
+
+.noidungchinh {
+  width: 95%;
+  margin-top: 100px;
+  padding: 10px 20px 5px 10px;
+  box-sizing: border-box;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: auto;
+}
+
+.slideshow {
+  width: 75%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.slide-wrapper {
+  width: 17000px;
+  animation: slide 30s ease infinite;
+  box-sizing: border-box;
+}
+
+.slide {
+  float: left;
+  height: 782px;
+  width: 1000px;
+  box-sizing: border-box;
+}
+
+@keyframes slide {
+  5% {
+    margin-left: 0px;
+  }
+
+  10% {
+    margin-left: -1000px;
+  }
+
+  15% {
+    margin-left: -2000px;
+  }
+
+  20% {
+    margin-left: -3000px;
+  }
+
+  25% {
+    margin-left: -4000px;
+  }
+
+  30% {
+    margin-left: -5000px;
+  }
+
+  35% {
+    margin-left: -6000px;
+  }
+
+  40% {
+    margin-left: -7000px;
+  }
+
+  45% {
+    margin-left: -8000px;
+  }
+
+  50% {
+    margin-left: -9000px;
+  }
+
+  55% {
+    margin-left: -10000px;
+  }
+
+  60% {
+    margin-left: -11000px;
+  }
+
+  65% {
+    margin-left: -12000px;
+  }
+
+  70% {
+    margin-left: -13000px;
+  }
+
+  75% {
+    margin-left: -14000px;
+  }
+
+  80% {
+    margin-left: -15000px;
+  }
+
+  85% {
+    margin-left: -16000px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: unset;
+    position: absolute;
+  }
+  .menuT {
+    width: 100%;
+    height: 5vh;
+    padding: 3px 3px 3px 3px;
+    box-sizing: border-box;
+    position: fixed;
+  }
+  
+  .menuTcon {
+    width: 97%;
+    height: 10vh;
+    padding: 3px 3px 3px 3px;
+    box-sizing: border-box;
+  }
+
+  .flo{
+    float: left;
+    width: 15%;
+    padding-left: 5px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .menuBody {
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+  
+  }
+  
+  .tieude {
+    width: 100%;
+  }
+  
+  .Moddau {
+    width: 70%;
+    padding: 5px 20px 5px 10px;
+    box-sizing: border-box;
+    float: left;
+  }
+  
+  .bang {
+    width: 30%;
+    height: auto;
+    background-color: lightgray;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    float: right;
+  }
+  
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+  
+  .thongtindemuc {
+    display: flex;
+  }
+  
+  .Demuc {
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .thongtin {
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .noidungchinh {
+    width: 95%;
+    margin-top: 100px;
+    padding: 10px 20px 5px 10px;
+    box-sizing: border-box;
+  }
+  
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: auto;
+  }
+  
+  .slideshow {
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  .slide-wrapper {
+    width: 17000px;
+    animation: slide 30s ease infinite;
+    box-sizing: border-box;
+  }
+  
+  .slide {
+    float: left;
+    height: 782px;
+    width: 1000px;
+    box-sizing: border-box;
+  }
+  
+  @keyframes slide {
+    5% {
+      margin-left: 0px;
+    }
+  
+    10% {
+      margin-left: -1000px;
+    }
+  
+    15% {
+      margin-left: -2000px;
+    }
+  
+    20% {
+      margin-left: -3000px;
+    }
+  
+    25% {
+      margin-left: -4000px;
+    }
+  
+    30% {
+      margin-left: -5000px;
+    }
+  
+    35% {
+      margin-left: -6000px;
+    }
+  
+    40% {
+      margin-left: -7000px;
+    }
+  
+    45% {
+      margin-left: -8000px;
+    }
+  
+    50% {
+      margin-left: -9000px;
+    }
+  
+    55% {
+      margin-left: -10000px;
+    }
+  
+    60% {
+      margin-left: -11000px;
+    }
+  
+    65% {
+      margin-left: -12000px;
+    }
+  
+    70% {
+      margin-left: -13000px;
+    }
+  
+    75% {
+      margin-left: -14000px;
+    }
+  
+    80% {
+      margin-left: -15000px;
+    }
+  
+    85% {
+      margin-left: -16000px;
+    }
+  }
+
+
+}

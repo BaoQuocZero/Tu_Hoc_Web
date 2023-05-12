@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.menu-left {
+    flex: 1;
+}
+
+.menu-left-content {
+    text-align: center;
+    padding: 2%;
+}
+
+.menu-right {
+    flex: 1;
+}
+
+.menu-right-content {
+    text-align: center;
+    padding: 2%;
+}
+
+.div-img {
+    width: 100%;
+    height: 25%;
+    padding: 1%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.div-img img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-img img:hover {
+    transform: scale(1.2);
+}
+
+.menu-body {
+    flex: 3;
+}
+
+.menu-body-content {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.taskbar {
+    width: 100%;
+    height: 10%;
+    padding: 2%;
+    display: flex;
+}
+
+.taskbar-menu {
+    flex: 1;
+    text-align: center;
+    padding: 2%;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.taskbar-menu:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+    box-shadow: 0px 11px 22px -9px black;
+
+}
+
+.taskbar-menu:hover a {
+    color: white;
+    background-color: black;
+}
+
+.main-content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    Flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.div-img-main {
+    width: 25%;
+    height: 25%;
+    padding: 1%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.div-img-main img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.div-img-main img:hover {
+    transform: scale(1.2);
+}
+
+.before-footer{
+    text-align: center;
+    padding: 2%;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-menu {
+    flex: 1;
+    padding: 3%;
+}
+
+.button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    color: white;
+    background-color: black;
+  }

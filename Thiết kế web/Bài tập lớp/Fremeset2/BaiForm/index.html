@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="tieude">
+                <h1>Đăng ký thành viên</h1>
+                <hr style="width: 250px;">
+            </div>
+            <form action="" name="dangnhap" method="post">
+                <div class="box">
+                    Họ tên đang nhập: <input type="text" name="txtHTen" size="20px" class="boxBox"><br>
+                    Mã số sinh viên: <input type="text" name="txtMSSV" size="19px" maxlength="9" class="boxBox"><br>
+                    Mật khẩu <input type="password" name="pswMKhau" size="15px" maxlength="10" class="boxBox"><br>
+                    Quê quán: <select name="slQQuan" id="">
+                </div>
+                <option value="CT">Cần Thơ</option>
+                <option value="DT">Đồng Thấp</option>
+                <option value="TV" selected="selected">Trà Vinh</option>
+                <option value="VL">Vĩnh Long</option>
+                </select><br>
+                Những môn đã tích lũy trên 8.5:
+                <select name="slMon" id="" multiple>
+                    <option value="Thiết kế web" selected="selected">Thiết kế web</option>
+                    <option value="Cỡ sở dữ kiệu">Cỡ sở dữ kiệu</option>
+                    <option value="Phân tích và thiết kế HTTT">PT&amp;TK HTTT</option>
+                    <option value="Đồ họa ứng dụng" selected="selected">Đồ họa ứng dụng</option>
+                </select>
+                <fieldset>
+                    <legend>Giới tính</legend>
+                    <input type="radio" name="rdGTinh" value="0">Nam &nbsp; &nbsp;
+                    <input type="radio" name="rdGTinh" value="1">Nữ
+                </fieldset>
+                <p>
+                    Sở thích <br>
+                <pre>
+                <input type="checkbox" name="chbxSThich" value="phim">Xem phim, ca nhạc
+                <input type="checkbox" name="chbxSThich" value="docbao">Đọc báo
+                <input type="checkbox" name="chbxSThich" value="luotweb">Lướt web
+            </pre>
+                <textarea name="txtaQDinh" id="" cols="80" rows="5" readonly="readonly">
+- Diễn đàng không chấp nhận việc lợi dụng diễn đàng làm nơi trao đỏi các thông tin phản động hoặc văn hóa phẩm đồi trị
+- Nếu ban quản trị phát hiện tài khoản của bạn có các hoạt động khả nghi, chúng tôi có quyền xóa tài khoảng của bạn mà không cần báo trước 
+                </textarea>
+                </p>
+                <input type="submit" name="sbmDNhap" value="Đăng ký">
+                <input type="reset" name="rsLai" value="Làm lại">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

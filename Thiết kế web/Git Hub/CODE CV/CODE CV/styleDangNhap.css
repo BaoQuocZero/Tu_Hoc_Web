@@ -1,0 +1,179 @@
+.container{
+    background: rgb(105, 105, 179);
+    width: 600px;
+    height: 800px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dangnhap{
+    margin-left: 70px;
+    /* margin-bottom: 25px; */
+    width: 250px; 
+}
+
+.cachdong{
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+
+.nutdn{
+    color: white;
+    background-color: blue;
+    margin-bottom: 50px;
+    margin-right: 93px;
+}
+/* ==================================== */
+
+.container2{
+    /* display: flex; */
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Dautrang{
+    text-align: center;
+}
+
+.Dangxuat{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.cachphai{
+    /* justify-content: space-around; */
+    margin-right: 700px;
+    background-color: antiquewhite;
+    text-align: right;
+}
+
+.cachtrai{
+    margin-left: 700px;
+    background-color: aquamarine;
+    text-align: left;
+}
+
+.canhgiua{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    
+    /* margin-right: 550px; */
+    margin-bottom: 25px;
+
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+    /* margin-left: 300px; */
+}
+
+.giua{
+    display: block;
+    text-align: center;
+
+    margin-left: 665px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+/* ============[ CV ]===================== */
+.containercv{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-cv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #a19585;
+}
+
+.container-nen{
+    width: 20%;
+    height: 100%;
+}
+
+.nen-trang{
+    width: 80%;
+    height: 100%;
+}
+
+.nen{
+    width: 100%;
+    height: 40%;
+    background-color: #deb887;
+}
+
+.nen-nhat{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(161, 149, 133);
+}
+
+.containercv{
+    position: relative;
+}
+
+.cv{
+    top: 30px;
+    width: 40%;
+    height: 95%;
+    background-color: white;
+    position: absolute;
+     display: flex;  /*CĂNG GIỮA */
+}
+
+.cv-boder{
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(165, 153, 153);
+}
+
+.hinhtron{
+    border-radius: 40%;
+
+    margin-bottom: 25px;
+    
+    width: 95px;
+    height: 95px;
+}
+
+.contact{
+    margin-right: 25px;
+}
+
+.canhtrai{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.lephai{
+    margin-right: 10px;
+}
+

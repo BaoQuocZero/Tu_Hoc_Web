@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleBT.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="tieude">
+                <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+                <p>bạn phải nhập đầy đủ thông tin vào nhũng phần có dấu (*)</p>
+            </div>
+            <form action="" name="dangnhap" method="post">
+                <div class="box ">
+                    <div class="boxND">Tên đang nhập:(*) </div>
+                    <div class="boxBox"><input type="text" name="txtHTen"></div>
+                </div>
+                <div class="box ">
+                    <div class="boxND">Mật khẩu:(*) </div>
+                    <div class="boxBox"><input type="text" name="txtHTen"></div>
+                </div>
+                <div class="box ">
+                    <div class="boxND">Nhập lại mật khẩu:(*) </div>
+                    <div class="boxBox"><input type="text" name="txtHTen"></div>
+                </div>
+
+                <div class="box ">
+                    <div class="boxND">Ngày sinh</div>
+                    <div class="boxBox"><input type="date"></div>
+                </div>
+
+                <div class="box">
+                    <div class="boxND">Giới tính:</div>
+                    <div class="boxBox">
+                        <input type="radio" name="rdGTinh" value="0">Nam &nbsp; &nbsp;
+                        <input type="radio" name="rdGTinh" value="1">Nữ
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="boxND">Email:</div>
+                    <div class="boxBox"><input type="email"></div>
+                </div>
+
+                <div class="box">
+                    <div class="boxND">Tỉnh/Thành phố:</div>
+                    <div class="boxBox">
+                        <select>
+                            <option value="" selected="selected">Chọn tỉnh/thành</option>
+                            <option value="CT">Cần Thơ</option>
+                            <option value="DT">Đồng Thấp</option>
+                            <option value="TV">Trà Vinh</option>
+                            <option value="VL">Vĩnh Long</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="boxNDC">Câu châm ngôn của bạn</div>
+                    <div class="boxBox"><textarea name="" id="" cols="100" rows="10"></textarea></div>
+                </div>
+
+                <div class="box">
+                    <div class="boxNDBotton"><input type="submit" name="sbmDNhap" value="Đăng ký"></div>
+                    <div class="boxBoxBotton"><input type="reset" name="rsLai" value="Làm lại"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
