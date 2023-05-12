@@ -135,3 +135,126 @@ Toán tử     Ví dụ       Tương đương
 
 // =============================================================================================================
 
+/*
+Toán tử chuỗi
+ */
+
+// var firstName = ' Quốc'
+// var lastName = ' Bảo'
+
+// console.log(firstName + lastName)
+// console.log('Nguyễn Lâm'+firstName + lastName)
+
+// var name = firstName + lastName + ' xin chào'
+// console.log(name)
+
+// =============================================================================================================
+
+/*
+Toán tử
+==      >> bằng
+!=      >> không bằng
+>       >> Lớn hơn
+<       >> nhỏ hơn
+>=      >> lớn hơn hoặc bằng
+<=      >> nhỏ hơn hoặc bằng
+
+*/
+
+// var a= 'Bảo'
+// var b= 'Bảoo'
+
+// if (a==b){
+//     alert('đúng')
+// }else{
+//     alert('sai')
+// }
+
+// =============================================================================================================
+
+/*
+Toán tử logic -- Boolean
+*/
+
+// var a=1
+// var b=2
+
+// var isSuccess = true
+// console.log(isSuccess)
+
+// var isSuccess = false
+// console.log(isSuccess)
+
+// var isSuccess = a > b
+// console.log(isSuccess)
+
+// var isSuccess = a < b
+// console.log(isSuccess)
+
+// =============================================================================================================
+
+/*
+ * If - Else
+
+Có 6 giá trị sau khi cho vào if được hiểu là 'false'
+    0
+    false
+    '' hoặc ""
+    undefined
+    NaN
+    null
+Còn các giá trị khác cho vào if đều sẽ là 'true'
+ */
+
+// if (true) {
+//     console.log('Đúng')
+// }else{
+//     console.log('Sai')
+// }
+
+// if (false) {
+//     console.log('Đúng')
+// }else{
+//     console.log('Sai')
+// }
+
+// var isSuccess = 1<2
+// if (isSuccess) {
+//     console.log('Đúng')
+// }else{
+//     console.log('Sai')
+// }
+
+// var name = 'Bảo'
+// if (name) {
+//     console.log('Đúng')
+// }else{
+//     console.log('Sai')
+// }
+
+// =============================================================================================================
+
+/*
+Toán tử logic
+    &&  - and
+    ||  - or
+    !   - not
+*/
+
+var a=1
+var b=2
+var c=3
+
+if( a>0 && b==2 && c==a+b) {
+    alert('đúng')
+}
+
+if( a<0 || b!=2 || c==a+b) {
+    alert('đúng')
+}
+
+if( !(a > 0) ) {
+    alert('đúng')
+}else{
+    alert('Toán tử not đảo ngược true >> false và ngược lại')
+}
