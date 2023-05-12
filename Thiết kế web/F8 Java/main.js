@@ -241,20 +241,20 @@ Toán tử logic
     !   - not
 */
 
-var a=1
-var b=2
-var c=3
+// var a=1
+// var b=2
+// var c=3
 
-if( a>0 && b==2 && c==a+b) {
-    alert('đúng')
-}
+// if( a>0 && b==2 && c==a+b) {
+//     alert('đúng')
+// }
 
-if( a<0 || b!=2 || c==a+b) {
-    alert('đúng')
-}
+// if( a<0 || b!=2 || c==a+b) {
+//     alert('đúng')
+// }
 
-if( !(a > 0) ) {
-    alert('đúng')
-}else{
-    alert('Toán tử not đảo ngược true >> false và ngược lại')
-}
+// if( !(a > 0) ) {
+//     alert('đúng')
+// }else{
+//     alert('Toán tử not đảo ngược true >> false và ngược lại')
+// }

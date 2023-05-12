@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 200vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* =====================================header====================================== */
+.header {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    padding: 1%;
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    width: 15%;
+    height: 90%;
+    background-color: lightblue;
+}
+
+.logo-a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+.google {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-icon {
+    width: 15%;
+    height: 100%;
+    padding: 1%;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+}
+
+.google-icon a {
+    text-decoration: none;
+}
+
+.google-icon:hover {
+    height: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.google-search {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-search input {
+    width: 100%;
+    height: 50%;
+}
+
+.header-taskbar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-taskbar a {
+    text-decoration: none;
+}
+
+.trangchu {
+    width: 18%;
+    height: 75%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trangchu:hover {
+    height: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.info {
+    width: 18%;
+    height: 75%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info:hover {
+    height: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.contact {
+    width: 18%;
+    height: 75%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact:hover {
+    height: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+/* =====================================body====================================== */
+.body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.nav {
+    width: 20%;
+    height: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+}
+
+/* .nav-fixed{
+    width: 18%;
+    background-color: lightgray;
+    position: fixed;
+    border: 1px solid black;
+    padding-top: 1%;
+} */
+
+.nav-noibat{
+    height: 35px;
+    text-align: center;
+}
+
+.nav-menu{
+    width: 100%;
+    height: 35px;
+    padding-top: 2%;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 70%;
+    height: 100%;
+}
+
+.aside {
+    width: 10%;
+    height: 100%;
+}
+
+.section-header {
+    width: 100%;
+    height: 30vh;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.section-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    width: 100%;
+    height: 80%;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    width: 300px;
+    height: 320px;
+    padding: 1%;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+
+.product:hover{
+    background-color: lightblue;
+}
+
+.product-img{
+    width: 100%;
+    height: 90%;
+}
+
+.product-cost{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.section-footer {
+    width: 100%;
+    height: 10%;
+}
+
+/* =====================================footer====================================== */
+.footer {
+    width: 100%;
+    height: 10%;
+}
