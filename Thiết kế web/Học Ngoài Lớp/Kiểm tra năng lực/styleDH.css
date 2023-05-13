@@ -1,7 +1,6 @@
 .mua{
     width: 50%;
-    padding: 1%;
-    flex-wrap: wrap;    
+    padding: 1%;    
     display: none;
     position: fixed;
     align-items: center;
@@ -11,6 +10,7 @@
     top: 20%;
     margin-left: 25%;
     background-color: white;
+    z-index: 2;
 }
 
 .mua p{
@@ -41,7 +41,7 @@
 }
 
 .diachi{
-    width: 1000px;
+    width: 100%;
     padding: 1%;
     box-sizing: border-box;
 }
