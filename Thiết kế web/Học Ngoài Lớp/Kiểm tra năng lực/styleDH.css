@@ -1,0 +1,47 @@
+.mua{
+    width: 50%;
+    padding: 1%;
+    flex-wrap: wrap;    
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    top: 20%;
+    margin-left: 25%;
+    background-color: white;
+}
+
+.mua p{
+    width: 1000px;
+}
+
+.mua input{
+    width: 100%;
+    height: 20px;
+}
+
+.name{
+    flex: 1;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.number{
+    flex: 1;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.email{
+    flex: 1;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.diachi{
+    width: 1000px;
+    padding: 1%;
+    box-sizing: border-box;
+}

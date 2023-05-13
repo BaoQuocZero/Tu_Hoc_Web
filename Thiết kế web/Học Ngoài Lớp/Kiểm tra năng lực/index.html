@@ -5,13 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styleDH.css">
+    <!-- end link CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Kiểm tra năng lực</title>
 </head>
 
 <body>
     <div class="wrap">
         <div class="container">
+
+            <div class="mua">
+                <p><strong>Vui lòng điền đầy đủ thông tin</strong></p>
+                <div class="name"><input id="Name" type="text" placeholder="Tên khách hàng"></div>
+                <div class="number"><input id="Phone" type="text" placeholder="Số điện thoại"></div>
+                <div class="email"><input id="Email" type="text" placeholder="Email"></div>
+                <div class="diachi"><input id="Address" type="text" placeholder="Địa chỉ"></div>
+            </div>
 
             <div class="header">
 
@@ -36,15 +48,13 @@
                 <div class="nav">
                     <div class="nav-fixed">
                         <div class="nav-noibat"><strong>Sản phẩm nổi bật</strong></div>
-                        <div class="nav-menu"><a href="">Nồi cơm điện MUTOSI</a>
+
+                        <div class="nav-menu">
+                            <i class="fa-brands fa-hotjar"></i>
+                            <button onclick="MUTOSI()" id="MUTOSI">Nồi cơm điện MUTOSI</button>
                             <hr>
-                        </div>
-                        <div class="nav-menu"><a href="">Nồi cơm điện MUTOSI</a>
-                            <hr>
-                        </div>
-                        <div class="nav-menu"><a href="">Nồi cơm điện MUTOSI</a>
-                            <hr>
-                        </div>                        
+                        </div>                       
+
                     </div>
                 </div>
 
@@ -55,60 +65,27 @@
                         <div class="product">
                             <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
                             <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
+                                <p><button onclick="MUTOSI()" id="MUTOSI">Nồi cơm điện MUTOSI</button></p>
+                                <p>10 <i class="fa-sharp fa-solid fa-dollar-sign"></i></p>
                             </div>
-                        </div>
-
-                        <div class="product">
-                            <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
-                            <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
-                            </div>
-                        </div>
-
-                        <div class="product">
-                            <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
-                            <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
-                            </div>
-                        </div>
-
-                        <div class="product">
-                            <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
-                            <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
-                            </div>
-                        </div>
-
-                        <div class="product">
-                            <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
-                            <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
-                            </div>
-                        </div>
-
-                        <div class="product">
-                            <div class="product-img"><img src="img/sanpham1.jpg" alt=""></div>
-                            <div class="product-cost">
-                                <p><a href="">Nồi cơm điện MUTOSI</a></p>
-                                <p>500.000</p>
-                            </div>
-                        </div>
+                        </div>                      
 
                     </div>
                     <div class="section-footer"></div>
                 </section>
 
-                <div class="aside"></div>
+                <div class="aside">
+                    <p>Vùng quảng cáo</p>
+                </div>
 
             </div>
 
-            <div class="footer"></div>
+            <div class="footer">
+                <h1>SHOP</h1>
+                <p>Tiki là viết tắt của “Tìm kiếm & Tiết kiệm”, là tên của website thương mại điện tử Việt Nam. Thành
+                    lập từ tháng 3 năm 2010, Tiki hiện đang là trang thương mại điện tử lọt top 2 tại Việt Nam và top 6
+                    tại khu vực Đông Nam Á.</p>
+            </div>
 
         </div>
     </div>
