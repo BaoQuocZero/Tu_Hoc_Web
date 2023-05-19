@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="header">
+                <h1><Strong>THÔNG TIN ĐĂNG KÝ</Strong></h1>
+            </div>
+            <div class="container-content">
+
+                <table>
+                    <form action="" name="formBT8">
+                        <tr>
+                            <td>Họ tên:</td>
+                            <td><input type="text" placeholder="Name" name="ht"></td>
+                        </tr>
+                        <tr>
+                            <td>Tên đăng nhập:</td>
+                            <td><input type="text" placeholder="Use name" name="tdn"></td>
+                        </tr>
+                        <tr>
+                            <td>Mật khẩu:</td>
+                            <td><input type="password" placeholder="password" name="mk"></td>
+                        </tr>
+                        <tr>
+                            <td>Quê quán:</td>
+                            <td>
+                                <select name="qq">
+                                    <option value="HN">Hà Nội</option>
+                                    <option value="HCM">Hồ Chí Minh</option>
+                                    <option value="Hạ Long">Hạ Long</option>
+                                    <option value="Sao Hỏa">Sao Hỏa</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" name="btDongy" value="Đồng ý" onclick="return nhaplieu()"></td>
+                        </tr>
+                    </form>
+                </table>
+
+            </div>
+            <div class="footer">
+                <div class="header">
+                    <h1>Thông tin vừa nhập</h1>
+                </div>
+                <div class="footer-content">
+                    <table border="1">
+                        <tr>
+                            <td>Họ tên</td>
+                            <td>Tên đăng nhập</td>
+                            <td>Mật khẩu</td>
+                            <td>Quên quán</td>
+                        </tr>
+                        <tr>
+                            <td id="ht1">&nbsp;</td>
+                            <td id="tdn1">&nbsp;</td>
+                            <td id="mk1">&nbsp;</td>
+                            <td id="qq1">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

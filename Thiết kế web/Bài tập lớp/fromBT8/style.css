@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 1000px;
+    height: 30px;
+    text-align: center;
+}
+
+select{
+    width: 173px;
+}
+
+.wrap {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
