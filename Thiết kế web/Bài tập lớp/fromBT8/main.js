@@ -4,12 +4,15 @@ function nhaplieu() {
     var mk = document.formBT8.mk.value;
     var qq = document.formBT8.qq.value;
 
+    var show = document.getElementById('table')
+    show.style.display='flex'
+
     if(tdn==""){
         alert("Chưa có tên đăng nhập");
         document.formBT8.tdn.focus();
         return false;
-    }else if(tdn.length < 6){
-        alert("Mật khẩu sai")
+    }else if(mk.length < 6 && mk.length > 12){
+        alert("Mật khẩu từ 6 đến 12 ký tự")
         document.formBT8.tdn.value="";
         document.formBT8.tdn.focus();
         return false;

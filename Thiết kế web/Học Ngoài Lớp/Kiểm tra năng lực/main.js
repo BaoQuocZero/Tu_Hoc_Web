@@ -1,15 +1,22 @@
 var product
-var Name
-var Phone
-var Email
-var Address
+var inName = document.getElementById('Name');
+var inPhone = document.getElementById('Phone')
+var inEmail  = document.getElementById('Email')
+var inAddress  = document.getElementById('Address')
 
-function MUTOSI() {
-    var mua = document.getElementById(mua)
-    product = ('Nồi cơm điện MUTOSI')
-    Name = document.getElementById(Name)
-    Phone = document.getElementById(Phone)
-    Email = document.getElementById(Email)
-    Address = document.getElementById(Address)
-    mua.style.display="block"
+var show = document.getElementById('mua');
+var check = false;
+function MUTOSI(){
+if (check)  {
+
+  show.style.display='block';
+ check = false;
+}
+else{
+    show.style.display='none';
+    check = true;
+}
+
+
+
 }
