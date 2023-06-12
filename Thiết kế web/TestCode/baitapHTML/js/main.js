@@ -1,4 +1,4 @@
 function login(){
     alert('Đăng nhập thành công')
-    window.location.href = '/cv.html'
+    window.location.href = '/cv1.html'
 }

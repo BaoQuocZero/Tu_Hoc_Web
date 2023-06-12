@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.wrap{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 5px solid black;
+}
+
+.he-img{
+    flex: 1;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.he-t{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.he-t-c{
+    padding: 0;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+}
+
+.menu-t{
+    flex: 4;
+    background-color: black;
+}
+
+.taskbar{
+    text-align: center;
+    padding: 1%;
+    color: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu{
+    width: 25%;
+    padding: 1%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.img-content{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.img-content img{
+    transition-duration: 0.3s;
+}
+
+.img-content img:hover{
+    transform: scale(1.2);
+}
+
+.text-content{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.menu-p{
+    flex: 1;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.menu-p-top{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+.menu-p-top-content{
+    width: 100%;
+    padding: 1px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+
+.menu-p-top-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-p-top-content:hover{
+    color: black;
+    background-color: white;
+}
+
+.menu-p-top-content a:hover{
+    color: black;
+    background-color: white;
+}
+
+.menu-p-dow{
+    width: 100%;
+    height: 80%;
+}
+
+marquee{
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
