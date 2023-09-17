@@ -9,3 +9,4 @@ document.getElementById('prev').onclick = function () {
     document.getElementById('slide').prepend(lists[lists.length - 1]);
     // prepend ngược lại
 }
+//trầm cảm time
