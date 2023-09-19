@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+      
+        #search-box {
+            font-size: 16px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+   
+        #search-button {
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Tìm kiếm sản phẩm:</h2>
+
+    
+    <input type="text" id="search-box" placeholder="Tìm kiếm sản phẩm...">
+
+ 
+    <button id="search-button">Tìm kiếm</button>
+
+ 
+    <ul id="product-list">
+        <li>Áo phông</li>
+        <li>Quần jean</li>
+        <li>Giày thể thao</li>
+        <li>Áo khoác</li>
+        <li>Quần tây</li>
+        <li>Giày cao gót</li>
+    </ul>
+
+    <script>
+      
+
+        var button = document.getElementById("search-button");
+        var productList = document.getElementById("product-list");
+        var input = document.getElementById("search-box");
+
+
+
+        var inputElement = document.querySelector('input[type="text"]');
+
+        inputElement.oninput = function (e) {
+            var query = e.target.value.toLowerCase();
+            console.log(query);
+        
+
+            var query = input.value.toLowerCase();
+            for (var i = 0; i < productList.children.length; i++) {
+                var product = productList.children[i];
+
+          
+                if (product.innerText.toLowerCase().includes(query)) {
+                  
+                    product.style.display = "block";
+
+                } else {
+                 
+                    product.style.display = "none";
+
+
+                }
+            }
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>
