@@ -79,6 +79,9 @@ ul.products li .product-info a.product-TheLoai{
 ul.products li .product-info a.product-name{
     color: #334862;
     padding: 3px 0px;
+    text-transform: uppercase;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 ul.products li .product-info a.product-price{
