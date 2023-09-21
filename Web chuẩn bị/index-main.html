@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/style-slider.css">
     <link rel="stylesheet" href="Css/style_search_box.css">
+    <link rel="stylesheet" href="Css/style-Product-list.css">
     <title>Web</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-top">
         <header>
             <nav>
                 <div class="top-nav">
@@ -37,73 +38,82 @@
             </nav>            
         </header>
         
-        <div class="slide-container">
-            <div id="slide">
-                <div class="slide-item" style="background-image: url(img/img1.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
+        <div class="slider-main">
+            <div class="slide-container">
+                <div id="slide">
+                    <div class="slide-item" style="background-image: url(img/img1.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img2.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img3.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img4.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img5.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img6.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+        
+                    <div class="slide-item" style="background-image: url(img/img7.jpg);">
+                        <div class="slide-content">
+                            <div class="slide-name">Name</div>
+                            <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
+                            <button>See more</button>
+                        </div>
                     </div>
                 </div>
-    
-                <div class="slide-item" style="background-image: url(img/img2.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
+        
+                <div class="slide-button">
+                    <button id="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next"><i class="fas fa-chevron-right"></i></button>
                 </div>
-    
-                <div class="slide-item" style="background-image: url(img/img3.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-    
-                <div class="slide-item" style="background-image: url(img/img4.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-    
-                <div class="slide-item" style="background-image: url(img/img5.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-    
-                <div class="slide-item" style="background-image: url(img/img6.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-    
-                <div class="slide-item" style="background-image: url(img/img7.jpg);">
-                    <div class="slide-content">
-                        <div class="slide-name">Name</div>
-                        <div class="slide-des">Nội dung mô tả chưa được làm xong</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="slide-button">
-                <button id="prev"><i class="fas fa-chevron-left"></i></button>
-                <button id="next"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
+    </div>
+
+    <div class="container-bottom">
+        <div class="tieude"><h1>Sản Phẩm Nổi Bật</h1></div>
+        <ul class="products">      
+        </ul>
     </div>
 </body>
 <script src="Js/app.js"></script>
 <script src="Js/app-slider.js"></script>
 <script src="Js/app_search_box.js"></script>
+<script src="Js/app-Product-list.js"></script>
 </html>

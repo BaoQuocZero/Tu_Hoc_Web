@@ -1,3 +1,10 @@
+.slider-main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 290px;
+}
+
 .slide-container {
     position: absolute;
     left: 50%;
